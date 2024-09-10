@@ -18,4 +18,4 @@ import time; \
 pyh.RPLLFP(saveLevel=1); \
 print(time.localtime());"
 
-aws sns publish --topic-arn arn:aws:sns:ap-southeast-1:257394491370:awsnotify --message "RPLLFPJobDone"
+#aws sns publish --topic-arn arn:aws:sns:ap-southeast-1:257394491370:awsnotify --message "RPLLFPJobDone"
